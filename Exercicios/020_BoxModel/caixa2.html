@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(92, 96, 97);
+            margin: 0px;
+        }
+
+        header{
+            background-color: lightgrey;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.452);
+        }
+
+        nav{
+            background-color: rgba(140, 151, 151, 0.678);
+            padding: 3px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.452);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+            
+        }
+
+        main{
+            background-color: lightgrey;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px 20px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.452);
+        }
+
+        article{
+            background-color: rgba(140, 151, 151, 0.678);
+            padding: 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.452);
+        }
+
+        article > aside{
+            background-color: rgb(112, 119, 119);
+            border-radius: 5px;
+        } 
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        footer > p{
+            padding: 3px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+        </nav>
+    </header>
+    <main>
+        <p>Esportes Politica Tecnologia</p>
+        <section id="esportes">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia ut modi quisquam libero enim, nam magni totam tenetur inventore dicta porro dolor quis architecto rem quaerat animi, nisi tempore.</p>
+                <aside>
+                    <p>Artigo escrito por Rafael</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rafael Guedes</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
